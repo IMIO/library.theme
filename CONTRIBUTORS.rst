@@ -1,4 +1,4 @@
 Contributors
 ============
 
-- Nicolas Demonte, daggelpop@gmail.com
+- Nicolas Demonte, support@imio.be

@@ -15,14 +15,14 @@ module.exports = function (grunt) {
                     sourceMap: true,
                     outputSourceFiles: true,
                     sourceMapFileInline: false,
-                    sourceMapURL: '++theme++library-theme/less/theme-compiled.less.map',
-                    sourceMapFilename: 'less/theme-compiled.less.map',
+                    sourceMapURL: '++theme++library-theme/less/bibliotheca-compiled.less.map',
+                    sourceMapFilename: 'less/bibliotheca-compiled.less.map',
                     modifyVars: {
                         "isPlone": "false"
                     }
                 },
                 files: {
-                    'less/theme-compiled.css': 'less/theme.local.less',
+                    'less/bibliotheca-compiled.css': 'less/bibliotheca.less',
                 }
             }
         },
