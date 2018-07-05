@@ -17,6 +17,12 @@
       name="library-theme"
       />
 
+  <plone:static
+      directory="theme/static"
+      type="plone"
+      name="library-theme"
+      />
+
   <genericsetup:registerProfile
       name="default"
       title="Plone Theme: Library theme"

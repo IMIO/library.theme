@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <registry>
-<!-- -*- extra stuff goes here -*- -->
-
+  <records prefix="plone.resources/bibliotheca-custom"
+            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+      <value key="css">
+        <element>++plone++library-theme/bibliotheca_custom.less</element>
+      </value>
+  </records>
 </registry>
