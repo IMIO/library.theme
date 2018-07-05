@@ -43,7 +43,7 @@ module.exports = function (grunt) {
             scripts: {
                 files: [
                     'less/*.less',
-                    'barceloneta/less/*.less'
+                    'static/*.less'
                 ],
                 tasks: ['less', 'postcss']
             }
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
                 bsFiles: {
                     src : [
                       'less/*.less',
-                      'barceloneta/less/*.less',
+                      'static/*.less',
                       '*.html',
                       '*.xml'
                     ]
