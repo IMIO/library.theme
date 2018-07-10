@@ -9,3 +9,4 @@ include *.js
 include *.json
 exclude .gitlint
 exclude .pre-commit-config.yaml
+exclude package-lock.json
