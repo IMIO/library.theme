@@ -5,7 +5,8 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Include bibliotheca_custom.less in production mode
+  [daggelpop]
 
 
 1.0a2 (2018-07-10)
