@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a3 (unreleased)
+1.0a3 (2018-07-13)
 ------------------
 
 - Include bibliotheca_custom.less in production mode
