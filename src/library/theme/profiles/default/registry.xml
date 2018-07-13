@@ -6,4 +6,14 @@
         <element>++plone++library-theme/bibliotheca_custom.less</element>
       </value>
   </records>
+  <records prefix="plone.bundles/bibliotheca-custom"
+            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+  <value key="resources">
+    <element>bibliotheca-custom</element>
+  </value>
+  <value key="enabled">True</value>
+  <value key="compile">True</value>
+  <value key="csscompilation">++plone++library-theme/bibliotheca_custom_compiled.css</value>
+  <value key="last_compilation">2018-07-13 00:00:00</value>
+</records>
 </registry>
