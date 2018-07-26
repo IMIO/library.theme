@@ -5,7 +5,8 @@ Changelog
 1.0a4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Reorder collective.behavior.gallery viewlets
+  [daggelpop]
 
 
 1.0a3 (2018-07-13)

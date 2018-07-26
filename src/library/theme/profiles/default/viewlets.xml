@@ -3,6 +3,17 @@
   <order manager="plone.portalheader" skinname="Plone Default">
     <viewlet name="plone.site_actions" insert-after="plone.searchbox" />
   </order>
+  <order manager="plone.belowcontentbody" skinname="Plone Default">
+    <viewlet
+      name="collective.behavior.gallery.gallery"
+      insert-after="plone.belowcontentbody.relateditems" />
+    <viewlet
+      name="collective.behavior.gallery.files"
+      insert-before="plone.abovecontenttitle.documentactions" />
+    <viewlet
+      name="plone.abovecontenttitle.documentactions"
+      insert-after="*" />
+  </order>
   <hidden manager="plone.portalfooter" skinname="Plone Default">
     <viewlet name="plone.site_actions" />
   </hidden>
