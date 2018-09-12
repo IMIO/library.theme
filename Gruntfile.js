@@ -15,14 +15,14 @@ module.exports = function (grunt) {
                     sourceMap: true,
                     outputSourceFiles: true,
                     sourceMapFileInline: false,
-                    sourceMapURL: '++theme++library-theme/less/bibliotheca-compiled.less.map',
-                    sourceMapFilename: 'less/bibliotheca-compiled.less.map',
+                    sourceMapURL: '++theme++library.theme/less/theme-compiled.less.map',
+                    sourceMapFilename: 'less/theme-compiled.less.map',
                     modifyVars: {
                         "isPlone": "false"
                     }
                 },
                 files: {
-                    'less/bibliotheca-compiled.css': 'less/bibliotheca.less',
+                    'less/theme-compiled.css': 'less/theme.local.less',
                 }
             }
         },
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
             scripts: {
                 files: [
                     'less/*.less',
-                    'static/*.less'
+                    'barceloneta/less/*.less'
                 ],
                 tasks: ['less', 'postcss']
             }
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
                 bsFiles: {
                     src : [
                       'less/*.less',
-                      'static/*.less',
+                      'barceloneta/less/*.less',
                       '*.html',
                       '*.xml'
                     ]
