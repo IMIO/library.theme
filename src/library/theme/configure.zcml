@@ -14,18 +14,18 @@
   <plone:static
       directory="theme"
       type="theme"
-      name="library.theme"
+      name="library-theme"
       />
 
   <plone:static
-      directory="theme/less"
+      directory="theme/static"
       type="plone"
-      name="library.theme.less"
+      name="library-theme"
       />
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone Theme: library.theme"
+      title="Plone Theme: Library theme"
       directory="profiles/default"
       description="Installs the Plone theme package library.theme."
       provides="Products.GenericSetup.interfaces.EXTENSION"
@@ -34,7 +34,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="Uninstall: Plone Theme: library.theme"
+      title="Uninstall: Plone Theme: Library theme"
       directory="profiles/uninstall"
       description="Uninstalls the Plone theme package library.theme."
       provides="Products.GenericSetup.interfaces.EXTENSION"
