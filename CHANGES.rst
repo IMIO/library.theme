@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a5 (unreleased)
+1.0a5 (2018-09-14)
 ------------------
 
 - Put contenus_lies viewlet in place
