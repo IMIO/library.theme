@@ -33,4 +33,6 @@ report.html
 !.gitkeep
 !.travis.yml
 !src/library
+node_modules/
 package-lock.json
+
