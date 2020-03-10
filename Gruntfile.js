@@ -22,7 +22,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    'less/bibliotheca-compiled.css': 'less/bibliotheca.less',
+                    'less/bibliotheca-compiled.css': 'less/bibliotheca.local.less',
                 }
             }
         },
