@@ -5,7 +5,7 @@ Changelog
 1.0a6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Migrate to Plone 5.2
 
 
 1.0a5 (2018-09-14)
