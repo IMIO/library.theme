@@ -14,3 +14,8 @@ build:
 
 cleanall:
 	rm -rf bin develop-eggs downloads include lib lib64 parts .installed.cfg .mr.developer.cfg bootstrap.py parts/omelette local share
+	find . -name "*.pyc" -exec rm -f {} \;
+	find . -name "*.pyo" -exec rm -f {} \;
+
+
+
