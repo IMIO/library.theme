@@ -6,10 +6,12 @@ grunt-install:
 grunt-compile:
 	./node_modules/grunt/bin/grunt compile
 
-build:
+buildout:
 	python3 -m venv .
 	bin/pip install -I -r requirements.txt
 	bin/buildout
+
+build: buildout
 	make grunt-install
 
 cleanall:
