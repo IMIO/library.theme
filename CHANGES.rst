@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.1 (unreleased)
+1.1.1 (2020-04-14)
 ------------------
 
 - Feat: comment hero div #BIBLI-8.
