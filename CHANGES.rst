@@ -5,13 +5,15 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Feat: comment hero div #BIBLI-8.
+  [bsuttor]
 
 
 1.1.0 (2020-03-10)
 ------------------
 
-- Migrate to Plone 5.2
+- Migrate to Plone 5.2.
+  [bsuttor]
 
 
 1.0a5 (2018-09-14)
