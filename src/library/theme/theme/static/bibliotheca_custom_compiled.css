@@ -70,9 +70,7 @@ body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geoloc
     border: solid 2px#f0f0f0;
 }
 
-body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated:nth-child(1) {
-    margin: 0 0;
-}
+
 body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated a .items-content {
 	display: -ms-flexbox;
 	display: flex;
@@ -86,7 +84,25 @@ body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geoloc
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	padding: 0 1.5rem;
+    padding: 0 1.5rem;
+}
+body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden {
+    display: none !important;
+}
+@media screen and (min-width:1200px) {
+    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items .items-content{
+    max-height: 180px;
+    }
+    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items .faceted-map-item{
+        width: 48%;
+    }
+
 }
 
 @media screen and (max-width:1200px) {
