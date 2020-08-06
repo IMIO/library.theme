@@ -1,8 +1,21 @@
 /* empty file, to be filled Through The Web */
 
-.section-explorer .widget-fieldset form {
-    display: flex;
-    max-width: 250px;   
+.section-explorer .faceted-text-widget legend, .section-explorer .faceted-taxonomy_select2-widget legend, .section-explorer  .faceted-taxonomy_select2-widget label {
+	display: none;
+}
+#faceted-form .faceted-widget {
+	width: 20%;
+	float: left;
+}
+#faceted-form .section-current-search.faceted-widget {
+	width: 100%;
+	clear: both;
+}
+.section-current-search fieldset dl, .section-current-search fieldset dt, .section-current-search fieldset dd, .section-current-search .faceted-criteria-reset {
+	float: left;
+}
+.section-explorer #faceted-form .faceted-widget fieldset {
+	border: #ccc solid 0;
 }
 .section-explorer .widget-fieldset form .searchButton{
     margin-left: 1rem;
@@ -64,28 +77,62 @@ body.template-facetednavigation_view .eea-preview-items .button-map-content {
 	text-align: right;
 }
 
-body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated {
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item {
     margin: 25px 0;
     padding: 20px;
     border: solid 2px#f0f0f0;
 }
 
 
-body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated a .items-content {
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content {
 	display: -ms-flexbox;
 	display: flex;
 }
-body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated a .items-content .image img {
-    display: block;
-    width: 250px;
+.select2-container {
+	width: 100%;
 }
-body.template-facetednavigation_view .eea-preview-items .faceted-map-item.geolocated a .items-content .text {
+@media screen and (max-width:1200px){
+
+#content-core #faceted-form .faceted-widget {
+	width: 92%;
+}
+#faceted-form .faceted-widget {
+	float: none;
+}
+}
+
+.faceted-text-widget .searchButton, .faceted-text-widget .searchButton:hover {
+	right: 0;
+	top: 0;
+	position: absolute;
+	width: 1em;
+	color: transparent;
+	text-shadow: none;
+}
+.faceted-text-widget form::after {
+	content: "ok";
+	float: right;
+	top: 0;
+	position: absolute;
+	right: 0.5em;
+	top: 0.5em;
+	cursor: pointer;
+}
+.faceted-text-widget form {
+	position: relative;
+}
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content .image img {
+    display: block;
+    max-height: 222px;
+}
+body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .items-content .text {
 	max-height: 200px;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
     padding: 0 1.5rem;
 }
+
 body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden {
     display: none !important;
 }
@@ -101,7 +148,7 @@ body.template-facetednavigation_view .eea-preview-items #faceted-map-container.h
     }
     body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items .faceted-map-item{
         width: 48%;
-    }
+	}
 
 }
 
