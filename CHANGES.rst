@@ -5,7 +5,8 @@ Changelog
 1.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- [BIBLI-25] : Change some id names (library.policy/explorer.pt - 1.1.4)
+  [boulch]
 
 
 1.1.2 (2020-08-13)

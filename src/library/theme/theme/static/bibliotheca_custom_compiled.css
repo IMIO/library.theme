@@ -46,7 +46,7 @@ body.template-facetednavigation_view .eea-preview-items .button-map-content .but
     padding-left: 0.5rem;
     opacity: .3;
 }
-body.template-facetednavigation_view .eea-preview-items #faceted-map-container {
+body.template-facetednavigation_view .eea-preview-items #faceted-map {
 	width: 52% !important;
 	display: inline-block !important;
 	position: -webkit-sticky !important;
@@ -54,7 +54,7 @@ body.template-facetednavigation_view .eea-preview-items #faceted-map-container {
 	height: 90vh !important;
 	top: 5vh !important;
 }
-body.template-facetednavigation_view .eea-preview-items #faceted-results-items {
+body.template-facetednavigation_view .eea-preview-items #faceted-results {
 	width: 46%;
 	display: inline-block;
     margin-right: auto;
@@ -133,27 +133,27 @@ body.template-facetednavigation_view .eea-preview-items .faceted-map-item a .ite
     padding: 0 1.5rem;
 }
 
-body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden {
+body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden {
     display: none !important;
 }
 @media screen and (min-width:1200px) {
-    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items{
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items .items-content{
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results .items-content{
     max-height: 180px;
     }
-    body.template-facetednavigation_view .eea-preview-items #faceted-map-container.hidden ~ #faceted-results-items .faceted-map-item{
+    body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden ~ #faceted-results .faceted-map-item{
         width: 48%;
 	}
 
 }
 
 @media screen and (max-width:1200px) {
-    body.template-facetednavigation_view .eea-preview-items #faceted-map-container {
+    body.template-facetednavigation_view .eea-preview-items #faceted-map {
         width: 100%!important;
         margin: 0 auto;
         position: relative!important;
@@ -161,7 +161,7 @@ body.template-facetednavigation_view .eea-preview-items #faceted-map-container.h
         height: 30vh!important;
         margin-bottom: 2rem;
     }
-    body.template-facetednavigation_view .eea-preview-items #faceted-results-items {
+    body.template-facetednavigation_view .eea-preview-items #faceted-results {
         width: 100%;
         display: inline-block;
         margin-right: auto;
