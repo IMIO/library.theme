@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.3 (unreleased)
+1.1.3 (2020-08-19)
 ------------------
 
 - [BIBLI-25] : Change some id names (library.policy/explorer.pt - 1.1.4)
