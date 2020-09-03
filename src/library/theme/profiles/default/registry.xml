@@ -13,7 +13,7 @@
   </value>
   <value key="enabled">True</value>
   <value key="compile">True</value>
-  <value key="csscompilation">++plone++library-theme/bibliotheca_custom_compiled.css</value>
+  <value key="csscompilation">++plone++static/bibliotheca-custom-compiled.css</value>
   <value key="last_compilation">2018-07-13 00:00:00</value>
 </records>
 </registry>

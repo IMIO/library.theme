@@ -5,7 +5,8 @@ Changelog
 1.1.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- BIBLI-32: Improve split between base LESS and editable TTW custom LESS
+  [laulaz]
 
 
 1.1.3 (2020-08-19)
