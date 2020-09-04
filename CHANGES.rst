@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.4 (unreleased)
+1.1.4 (2020-09-04)
 ------------------
 
 - BIBLI-32: Improve split between base LESS and editable TTW custom LESS
