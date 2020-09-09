@@ -5,7 +5,8 @@ Changelog
 1.1.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Adding svg map icon for results item.
+  [tlambert]
 
 
 1.1.4 (2020-09-04)

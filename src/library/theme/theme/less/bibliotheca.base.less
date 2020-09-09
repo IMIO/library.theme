@@ -56,7 +56,36 @@ body.template-facetednavigation_view .eea-preview-items #faceted-results {
 	width: 46%;
 	display: inline-block;
     margin-right: auto;
-    margin-right: 20px;
+	margin-right: 20px;
+	.geolocated{
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: url(../static/map.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			right: 7px;
+			top: 10px;
+		}
+	}
+	.not-geolocated{
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: url(../static/no-map.svg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			right: 7px;
+			top: 10px;
+			opacity: .4;
+		}
+	}
 }
 body.template-facetednavigation_view .eea-preview-items {
 	border: 1px solid rgba(232, 232, 232, 0.5);
@@ -165,4 +194,57 @@ body.template-facetednavigation_view .eea-preview-items #faceted-map.hidden {
         margin-right: auto;
         margin-right: 20px;
     }
+}
+
+.plone-nav li a {
+	display: inline-block;
+}
+#formfield-form-widgets-group_identification,
+
+#formfield-form-widgets-group_localisation,
+
+#formfield-form-widgets-group_owner,
+
+#formfield-form-widgets-group_item_status,
+
+#formfield-form-widgets-group_item_description,
+
+#formfield-form-widgets-group_item_conservation,
+
+#formfield-form-widgets-group_item_history,
+
+#formfield-form-widgets-group_item_notes_and_comments{
+    font-size: 120%;
+    text-transform: uppercase;
+    margin: 3em 0 0 0;
+    line-height: 1em;
+}
+h2 label {
+    font-weight: normal;
+}
+@media screen and (min-width:768px) {
+#portal-globalnav-wrapper{
+    .plone-nav li ul li a {
+        min-width: 22em;
+    }
+    .plone-navbar-nav > li.has_subtree ul li a {
+        padding-right: 0em;
+    }
+    .plone-nav .has_subtree .has_subtree:hover > ul {
+        left: 25.2em;
+    }
+}
+
+}
+
+#portal-globalnav i.glyphicon.link-https {
+    float: left;
+    z-index: -1;
+}
+
+.col-md-pull-9 {
+    right: 0 !important;
+}
+.col-md-push-3 {
+    left: 0 !important;
 }
