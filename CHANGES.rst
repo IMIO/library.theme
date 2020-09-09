@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.5 (unreleased)
+1.1.5 (2020-09-09)
 ------------------
 
 - Adding svg map icon for results item.
