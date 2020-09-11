@@ -5,6 +5,9 @@ Changelog
 1.1.6 (unreleased)
 ------------------
 
+- Add css
+  [tlambert]
+
 - Compile CSS
   [laulaz]
 
