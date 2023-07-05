@@ -2,8 +2,10 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-=============library.theme
 =============
+library.theme
+=============
+
 Tell me what your product does
 
 Features
@@ -48,7 +50,7 @@ Install library.theme by adding it to your buildout
         library.theme
 
 
-and then run :command:`bin/buildout`
+and then run `bin/buildout`
 
 
 Contribute
