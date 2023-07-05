@@ -16,8 +16,6 @@ setup(
     name='library.theme',
     version='1.1.7.dev0',
     description="A theme for buildout.library",
-    long_description=long_description,
-    long_description_content_type="text/x-rst",
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Environment :: Web Environment",
