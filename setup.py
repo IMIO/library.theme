@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='library.theme',
-    version='1.1.7',
+    version='1.1.8.dev0',
     description="A theme for buildout.library",
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
