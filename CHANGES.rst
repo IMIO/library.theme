@@ -5,7 +5,8 @@ Changelog
 1.1.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add css to correctly display new select2 widgets in faceted view "explorer"
+  [boulch, tlambert]
 
 
 1.1.6 (2020-09-11)
@@ -42,7 +43,7 @@ Changelog
 1.1.2 (2020-08-13)
 ------------------
 
-- Adding style for Explorer map view. 
+- Adding style for Explorer map view.
   [tlambert]
 
 
