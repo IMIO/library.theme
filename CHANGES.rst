@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.7 (unreleased)
+1.1.7 (2023-07-05)
 ------------------
 
 - Add css to correctly display new select2 widgets in faceted view "explorer"
