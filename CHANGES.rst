@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.8 (unreleased)
+1.1.8 (2023-09-05)
 ------------------
 
 - BIBLI-65 : Add css to add arrow on select2 widgets
