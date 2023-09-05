@@ -5,7 +5,8 @@ Changelog
 1.1.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- BIBLI-65 : Add css to add arrow on select2 widgets
+  [boulch]
 
 
 1.1.7 (2023-07-05)
