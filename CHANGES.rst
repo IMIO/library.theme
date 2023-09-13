@@ -5,8 +5,8 @@ Changelog
 1.1.9 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Fix folder view. Enhance picture displaying
+  [jhero]
 
 1.1.8 (2023-09-05)
 ------------------
