@@ -5,7 +5,8 @@ Changelog
 1.1.7 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Avoid barceloneta theme re-activation on `library.theme` uninstallation
+  [laulaz]
 
 
 1.1.6 (2020-09-11)
